@@ -25,6 +25,6 @@ numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 sort(numbers)
 
 # Printing statement for output.
-print("\n\n\t\t\t ", numbers)
+print("\n\n\t\tSELECTION SORT: ", numbers)
 
 
