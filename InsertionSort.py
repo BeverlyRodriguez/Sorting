@@ -1,6 +1,6 @@
 #START
 
-# Implementing Insertion sort code.
+# Implementing Insertion Sort code.
 # Using the array values assigned to me.
 
 
@@ -18,9 +18,11 @@ def insertion_Sort(numbers):
             numbers[j+1] = numbers[j]
             j = j - 1
         numbers[j+1] = sorted_area
-        print(numbers)
+        print("\t\t", i, "Iterations:  ", numbers)
    
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 insertion_Sort(numbers)
-print(numbers)
+
+print("\n\n\t\tINSERTION SORT: ", numbers)
+
