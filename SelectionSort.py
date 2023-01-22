@@ -1,6 +1,8 @@
 #Start
+print("\n\t\t\t\t*******PROGRAMMED BY:*******")
+print("\t\t\t\t**BEVERLY ANN L. RODRIGUEZ**\n")
 
-print("Array values: [60, 63, 96, 5, 90, 43, 75, 41, 99, 23] ")
+print("\t\t   Array values:[60, 63, 96, 5, 90, 43, 75, 41, 99, 23]\n")
 
 def sort(numbers):
 
@@ -14,12 +16,12 @@ def sort(numbers):
     temp = numbers[i]
     numbers[i] = numbers[minpos]
     numbers[minpos] = temp
-    print(numbers)
+    print("\t\t\t ", numbers)
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 sort(numbers)
 
 
-print(numbers)
+print("\n\n\t\t\t ", numbers)
 
 
