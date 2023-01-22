@@ -14,9 +14,10 @@ def sort(nums):
                 temp = nums[j]
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
-        print(numbers)
+        print("\t\t\t ", numbers)
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 sort(numbers)
 
-print(numbers)
+# Printing statement for output.
+print("\n\n\t\t\t ", numbers)
