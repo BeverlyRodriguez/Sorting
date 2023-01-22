@@ -1,4 +1,4 @@
-# Implementing Selection sort code.
+# Implementing Bubble Sort code.
 # Using the array values assigned to me.git add -A
 
 print("\n\t\t\t\t*******PROGRAMMED BY:*******")
