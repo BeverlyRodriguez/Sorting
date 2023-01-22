@@ -2,7 +2,6 @@
 # Using the array values assigned to me.
 
 
-
 print("\n\t\t\t\t*******PROGRAMMED BY:*******")
 print("\t\t\t\t**BEVERLY ANN L. RODRIGUEZ**\n")
 
@@ -16,7 +15,7 @@ def sort(numbers):
         if numbers[j] < numbers[minpos]:
             minpos = j
 
-    #For the array values to swap.
+    # For the array values to swap.
     temp = numbers[i]
     numbers[i] = numbers[minpos]
     numbers[minpos] = temp
@@ -25,7 +24,7 @@ def sort(numbers):
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 sort(numbers)
 
-
+# Printing statement for output.
 print("\n\n\t\t\t ", numbers)
 
 
