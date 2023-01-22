@@ -14,10 +14,10 @@ def sort(nums):
                 temp = nums[j]
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
-        print("\t\t", i, "Iterations:  ", numbers)
+        print("\t\t\t ", numbers)
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 sort(numbers)
 
 # Printing statement for output.
-print("\n\n\t\t BUBBLE SORT: ", numbers)
+print("\n\n\t\tBUBBLE SORT: ", numbers)
