@@ -16,6 +16,24 @@ def merge_sort (Numbers):
 
         merge_sort(LeftPart)
         merge_sort(RightPart)
+        i = j = k = 0
+        while i < len(LeftPart) and j < len(RightPart):
+            if LeftPart[i] < RightPart[j]:
+                Numbers[k] = LeftPart[i]
+                i += 1
+            else:
+                Numbers[k] = RightPart[j]
+                j += 1
+            k += 1
+        while i < len(LeftPart):
+            Numbers[k] = LeftPart[i]
+            i += 1
+            k += 1
+        while j < len(RightPart):
+            Numbers[k] = RightPart[j]
+            j += 1
+            k += 1
+        print(Numbers)
 
         
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
