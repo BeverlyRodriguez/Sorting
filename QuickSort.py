@@ -29,7 +29,7 @@ def partition(numbers, left, right):
 
     if numbers[i] > pivot:
         numbers[i], numbers[right] = numbers[right], numbers[i]
-    print(numbers)
+    print("\t\t\t ", numbers)
     return i
     
 
