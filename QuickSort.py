@@ -36,3 +36,5 @@ def partition(numbers, left, right):
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
 quicksort(numbers, 0, len(numbers) - 1)
+
+print("\n\n\t\t  QUICK SORT: ", numbers)
