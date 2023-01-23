@@ -6,7 +6,7 @@ print("\t\t\t\t**BEVERLY ANN L. RODRIGUEZ**\n")
 
 print("\t\t   Array values:[60, 63, 96, 5, 90, 43, 75, 41, 99, 23]\n")
 
-def sort(nums):
+def bubble_sort(nums):
 
     for i in range(len(nums)-1,0,-1):
         for j in range(i):
@@ -14,10 +14,10 @@ def sort(nums):
                 temp = nums[j]
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
-        print("\t\t\t ", numbers)
+                print("\t\t\t ", numbers)
 
 numbers = [60, 63, 96, 5, 90, 43, 75, 41, 99, 23]
-sort(numbers)
+bubble_sort(numbers)
 
 # Printing statement for output.
 print("\n\n\t\tBUBBLE SORT: ", numbers)
