@@ -26,10 +26,11 @@ def partition(numbers, left, right):
 
         if i < j:
             numbers[i], numbers[j] = numbers[j], numbers[i]
+            print("\t\t\t ", numbers)
 
     if numbers[i] > pivot:
         numbers[i], numbers[right] = numbers[right], numbers[i]
-    print("\t\t\t ", numbers)
+        print("\t\t\t ", numbers)
     return i
     
 
