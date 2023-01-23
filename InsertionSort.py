@@ -1,5 +1,3 @@
-#START
-
 # Implementing Insertion Sort code.
 # Using the array values assigned to me.
 
